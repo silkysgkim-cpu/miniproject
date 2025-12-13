@@ -1,0 +1,254 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+@font-face {
+    font-family: 'JoyfulStory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+.text-ir {
+    position: absolute;
+    width: 1px; 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0); 
+    white-space: nowrap;
+    border: 0;
+}
+
+body {
+    background: #5B2386;
+    font-family: 'GMarketSans';
+}
+
+button,input {
+    font-family: 'GMarketSans';
+}
+
+main {
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+main, footer {
+    color: #fff;
+}
+
+.title, main, footer {
+    text-align: center;
+}
+
+header .title img {
+    width: 267px;
+    height: 126px;
+}
+
+.text-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 62px;
+}
+
+.text-container img {
+    width: 14px;
+    height: 14px;
+}
+
+.text1 {
+    font-family: 'JoyfulStory';
+    color: #F5DF4D;
+    font-size: 22px;
+    line-height: 100%;
+    margin: 24px 0 62px;
+}
+
+.text2 {
+    color: #fff;
+    line-height: 28px;
+    
+}
+
+.text2 .bold {
+    font-weight: 700;
+}
+
+section.write-area {
+    line-height: 38.4px;
+    margin-bottom: 50px;
+}
+
+section.write-area input {
+    width: 156px;
+    padding: 12px 0;
+    border-radius: 10px;
+    margin-right: 4px;
+    text-align: center;
+    color: #BABCBE;
+}
+
+section.write-area input::placeholder {
+    color: #BABCBE;
+
+}
+
+section.button-area {
+    
+    margin-bottom: 64px;
+}
+section.button-area img {
+    vertical-align: -webkit-baseline-middle;
+}
+
+section.button-group-area {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 12px 36px;
+    text-align: center;
+}
+
+.btn-yellow {
+    background-color: #FCEE21;
+    color: #5B2386;
+    border-radius: 20px;
+    padding: 12px 17px;
+    margin-right: 12px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #5B2386;
+    border-radius: 20px;
+    padding: 12px 17px;
+}
+
+
+.btn-yellow:hover {
+    background-color: #dfd21c;
+
+}
+
+.bold-text {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 8px;
+    line-height: 2.4rem;
+}
+
+section.result-area {
+    margin-bottom: 54px;
+}
+
+section.button-group-area {
+    margin-bottom: 82px;
+}
+
+footer h2.logo {
+   margin-bottom: 16px;
+}
+
+footer {
+    margin-bottom: 32px;
+}
+
+footer p {
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 300;
+}
+
+#myDialog {
+    font-family: 'JoyfulStory';
+    width: 330px;
+    height: 500px;
+    border-radius: 30px;
+    color: #5B2386;
+   box-shadow: 0px 0px 5px #444;
+}
+
+#myDialog img {
+    width: 240px;
+    height: 188px;
+    margin-bottom: 34px;
+}
+
+#myDialog .dialog-text1 {
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+#myDialog .dialog-text2 {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+#myDialog .btn-yellow {
+    box-shadow: 0px 0px 5px #444;
+}
+
+@media (min-width: 600px) {
+    
+    .text-container img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .text1 {
+        font-size: 36px;
+        line-height: 100%;
+        margin: 24px 0 160px;
+    }
+
+    .text-container img {
+        width: 46px;
+        height: 46px;
+    }
+
+    section.write-area br,
+    section.button-area button br {
+        display: none;
+    }
+    
+
+    .btn-yellow, .btn-white {
+      
+        border-radius: 20px;
+    }
+
+    header .title img {
+        width: 564px;
+        height: 265px;
+    }
+
+    footer {
+    margin-bottom: 70px;
+}
+}
