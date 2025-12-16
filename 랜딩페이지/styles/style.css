@@ -11,16 +11,15 @@ header .container {
 }
 
 main {
-    width: 100%;
+    /* width: 100%; */
     padding-top: 120px;
 }
 
 .container {
     margin: 0 auto ;
-    padding-top: 80px;
     max-width: 1280px;
     width: 100%;
-    padding: 0 20px;
+    /* padding: 80px 0; */
     display: flex;
     gap: 130px;
     align-items: center;
@@ -76,9 +75,54 @@ section.text-content {
     font-size: 16px;
 }
 
-
 section.text-content img {
     width: 660px;
     height: 390px;
     border-radius: 12px;
+}
+
+section.more-content {
+    text-align: center;
+    background-color: #fff;
+}
+
+section.more-content .text {
+    margin: 40px auto;
+    max-width: 734px;
+}
+
+section.more-content .text-container {
+    padding: 110px 0 80px;
+}
+
+section.more-content .item-container {
+    display: grid;
+    gap: 38px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.more-content .item img{
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+}
+
+section.more-content .container {
+    max-width: 940px;
+    padding: 80px 0;
+    gap: 54px;
+    text-align:start;
+    word-break:keep-all;
+}
+
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0;
+}
+
+footer ul.social-list {
+    display: flex;
+    gap: 20px;
 }
